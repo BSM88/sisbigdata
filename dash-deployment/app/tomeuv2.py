@@ -15,8 +15,8 @@ server = Flask(__name__)
 app = dash.Dash(server=server, external_stylesheets=[dbc.themes.FLATLY])
 app.title = 'Dashboard'
 
-username = 614331
-password = '5SIXTRENT'
+username = xxxx
+password = 'xxxx'
 session = requests.Session()
 
 
